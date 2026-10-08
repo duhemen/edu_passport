@@ -1,24 +1,21 @@
 # ═══════════════════════════════════════════════════════════════
-# Edu-Passport — Git Ignore
+# Edu-Passport — Git Ignore (Root)
 # ═══════════════════════════════════════════════════════════════
-# 
-# Kita hanya push 2 file publik:
-# - README.md
-# - ROADMAP.md
-# 
-# Semua kode aplikasi & file internal TIDAK di-push.
+# Hanya push README.md & ROADMAP.md ke GitHub.
 # ═══════════════════════════════════════════════════════════════
 
-# Aplikasi (private, belum siap publik)
+# Aplikasi (private)
 app/
 
 # Dokumentasi internal
 structure.md
+struckture.md
 README_OLD.md
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Editor
 .vscode/
@@ -33,3 +30,8 @@ npm-debug.log*
 # Environment
 .env
 .env.local
+
+# Build
+dist/
+build/
+node_modules/
