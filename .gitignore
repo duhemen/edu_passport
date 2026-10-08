@@ -1,0 +1,35 @@
+# ═══════════════════════════════════════════════════════════════
+# Edu-Passport — Git Ignore
+# ═══════════════════════════════════════════════════════════════
+# 
+# Kita hanya push 2 file publik:
+# - README.md
+# - ROADMAP.md
+# 
+# Semua kode aplikasi & file internal TIDAK di-push.
+# ═══════════════════════════════════════════════════════════════
+
+# Aplikasi (private, belum siap publik)
+app/
+
+# Dokumentasi internal
+structure.md
+README_OLD.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
